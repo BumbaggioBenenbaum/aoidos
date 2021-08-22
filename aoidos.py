@@ -16,12 +16,7 @@ choose_language = st.sidebar.selectbox(
     'Language of the stories',
     ("pl", "en")
 )
-
-def generate_index(r):
-    num = 0
     
-    
-
 
 def choose_model():
     model_name = f"aoidos_{choose_language}/aoidos_{choose_language}.pkl"
